@@ -1,0 +1,15 @@
+.subtitle {
+    font: var(--subtitle);
+}
+
+.title-lg {
+    font: var(--title-lg);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+.red {
+    color: var(--red);
+}

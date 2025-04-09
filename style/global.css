@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 :root {
     /* Font Family */
     --maven-pro: "Maven Pro", sans-serif;

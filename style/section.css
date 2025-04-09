@@ -1,0 +1,79 @@
+#intro {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: cover;
+    text-align: center;
+
+    .dev-pic {
+        width: 112px;
+        border: var(--red) 2px solid;
+        border-radius: 50%;
+        object-fit: cover;
+        padding: 4px;
+    }
+}
+
+#about {
+    width: 680px;
+    margin: auto;
+}
+
+.perfil {
+    margin: auto;
+    margin-top: 120px;
+}
+
+.code-sign {
+    font-size: bold;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    right: 35px;
+    z-index: 1;
+}
+
+.presentation {
+    margin: auto;
+    margin-top: 56px;
+
+    h1 {
+        margin-top: 8px;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+}
+
+#icons {
+    display: flex;
+    width: 754px;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 16px;
+
+    figure {
+        display: flex;
+        border-radius: 999px;
+        background-color: var(--gray300);
+        align-items: center;
+        gap: 8px;
+        font: var(--text-md);
+        padding: 8px 16px;
+
+        img {
+            width: 24px;
+        }
+        
+    }
+}
+
+.caret {
+    width: 32px;
+    margin: auto;
+    margin-top: 94px;
+    margin-bottom: 57px;
+}
+
