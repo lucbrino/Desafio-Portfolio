@@ -6,10 +6,48 @@
     font: var(--title-lg);
 }
 
+.title-md {
+    font: var(--title-md);
+}
+
+.title-sm {
+    font: var(--title-sm);
+}
+
+.text-md {
+    font: var(--text-md);
+}
+
 .text-sm {
     font: var(--text-sm);
 }
 
 .red {
     color: var(--red);
+}
+
+
+
+.gray-400 {
+    color: var(--gray400);
+}
+
+.gray-500 {
+    color: var(--gray500);
+}
+
+.gray-600 {
+    color: var(--gray600);
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-24 {
+    gap: 24px;
 }

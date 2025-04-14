@@ -77,3 +77,99 @@
     margin-bottom: 57px;
 }
 
+
+
+.my-work {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 56px;
+
+    h2 {
+        margin-top: 8px;
+    }
+}
+
+
+#projects {
+    margin-top: 72px;
+    margin-bottom: 144px;
+}
+
+.card {
+    width: 330px;
+    height: 280px;
+    border-radius: 12px;
+    background-color: var(--gray300);
+    
+    img {
+        width: 306px;
+        margin: 12px 12px 0px 12px;
+        border-radius: 8px;
+    }
+
+    h3 {
+        margin: 12px 12px 0px 12px;
+        padding: 4px 4px 0px 4px;
+    }
+}
+
+.project-caption {
+    width: 306px;
+    
+    p {
+        margin: 8px 12px 17px 12px;
+        padding: 4px 4px 4px 4px;
+    }
+}
+
+#services {
+    background-color: #0d0e11;
+
+        .subtitle {
+        margin-top: 88px;
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 8px;
+        text-align: center;
+    }
+}
+
+#products {
+    margin: auto;
+   
+}
+
+.product-card {
+    width: 280px;
+    height: 165px;
+    margin-top: 56px;
+    margin-bottom: 120px;
+    border: 2px var(--gray200) solid;
+    border-radius: 12px;
+
+    img {
+        width: 48px;
+    }
+
+    figure{
+        padding: 20px;
+    }
+
+    figcaption {
+        
+        h3 {
+            margin-top: 20px;
+            font: var(--title-sm);
+        }
+
+        p {
+            margin-top: 8px;
+            font: var(--text-sm);
+        }
+    }
+}
+
