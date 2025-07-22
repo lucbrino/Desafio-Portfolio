@@ -173,3 +173,112 @@
     }
 }
 
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: url(../assets/images/Background_Contacts.png);
+    background-size: cover;
+}
+
+.get-in-touch {
+    margin: auto;
+    margin-top: 128px;
+    text-align: center;
+    
+    h2 {
+        margin-top: 8px;
+    }
+
+    p {
+        margin-top: 8px;
+    }
+}
+
+.social {
+    position: relative;
+    width: 400px;
+    height: 320px;
+    margin: auto;
+    margin-top: 48px;
+    margin-bottom: 200px;
+}
+
+.social-card {
+    position: relative;
+    flex-direction: row;
+    width: 400px;
+    height: 68px;
+    border-radius: 8px;
+    background-color: var(--gray300);
+    color: var(--gray500);
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: .75rem;
+
+    .media {
+        display: block;
+        width: 288px;
+    }
+
+    p {
+        display: block;
+        align-self: center;
+    }
+
+    .arrow {
+            background-image: url(../assets/icons/ArrowUpRight.png);
+            width: 20px;
+            height: 20px;
+        }
+
+    &.linkedin {
+        .linkedin-logo {
+            background-image: url(../assets/icons/LinkedinLogo.png);
+            width: 28px;
+            height: 28px;
+        }
+
+        &.linkedin:hover{
+            .linkedin-logo{
+                background-image: url(../assets/icons/LinkedinLogohover.png);
+                width: 28px;
+                height: 28px;
+            }
+        }
+    }
+    
+    &.instagram {
+        .instagram-logo {
+            background-image: url(../assets/icons/InstagramLogo.png);
+            width: 28px;
+            height: 28px;
+        }
+
+        &.instagram:hover {
+            .instagram-logo{
+                background-image: url(../assets/icons/InstagramLogo.png);
+                width: 28px;
+                height: 28px;
+            }
+        }
+    }
+    
+    &.github {
+        .github-logo{
+            background-image: url(../assets/icons/GithubLogo.png);
+            width: 28px;
+            height: 28px;
+        }
+    }   
+
+    &.mail{
+        .mail-logo {
+            background-image: url(../assets/icons/EnvelopeSimple.png);
+            width: 28px;
+            height: 28px;
+        }
+    }
+    
+}
